@@ -5,12 +5,12 @@ const Home = () => {
     <>
       <div className="all-info">
         <nav>
-          <div class="row">
+          <div className="row">
             <img
               src="https://wd-graphics.com/wp-content/uploads/2023/03/wd-graphics-logo-white.png"
-              class="logo"
+              className="logo"
             />
-            <ul class="main-nav">
+            <ul className="main-nav">
               <li>
                 <a href="/">Home</a>
               </li>
@@ -23,25 +23,26 @@ const Home = () => {
             </ul>
           </div>
         </nav>
-        <section class="hero">
-          <div class="hero-content">
-            <h1 class="hero-title">Subscribe For Our Packages</h1>
+        <section className="hero">
+          <div className="hero-content">
+            <h1 className="hero-title">Subscribe For Our Packages</h1>
 
-            <h2 class="hero-subtitle">
+            <h2 className="hero-subtitle">
               Our website management agency is your trusted partner for
               maintaining and enhancing your online presence. We offer services
               such as maintenance, content management, SEO, security, and more,
               so you can focus on your core business while we keep your website
               running smoothly.!
             </h2>
-
-            <button
-              type="button"
-              class="hero-button"
-              onclick="location.href='tours.html'"
-            >
-              Subscribe &raquo;
-            </button>
+            <a href="/SignIn">
+              <button
+                type="button"
+                className="hero-button"
+                onclick="location.href='tours.html'"
+              >
+                Subscribe &raquo;
+              </button>
+            </a>
           </div>
         </section>
       </div>

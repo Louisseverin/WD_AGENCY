@@ -4,7 +4,7 @@ const Signup = () => {
   return (
     <>
       <div className="all-info signin-size">
-        <div class="signup-box">
+        <div className="signup-box">
           <h1 className="title-login">Sign Up</h1>
           <h4 className="header-desc">Only 400$ /Month</h4>
           <form className="form-login">
@@ -27,8 +27,12 @@ const Signup = () => {
           </p>
         </div>
       </div>
-      <p class=" para-22">
-        Already have an account? <a href="/SignIn">Login here</a>
+      <p className=" para-22">
+        Already have an account? <a href="/SignIn">Login here </a>
+        <a href="/" className="home-link">
+          {" "}
+          Back Home>>
+        </a>
       </p>
     </>
   );

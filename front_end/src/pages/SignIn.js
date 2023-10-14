@@ -11,12 +11,16 @@ const SignIn = () => {
             <input type="email" placeholder="E-mail" />
             <label>Password</label>
             <input type="password" placeholder="Password" />
-            <input type="button" value="Submit" />
+            <input type="button" value="Login" />
           </form>
         </div>
       </div>
       <p class="para-2">
-        Not have an account? <a href="/Signup">Sign Up Here</a>
+        Not have an account? <a href="/Signup">Sign Up Here</a>{" "}
+        <a href="/" className="home-link">
+          {" "}
+          Back Home>>
+        </a>
       </p>
     </>
   );

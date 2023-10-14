@@ -142,7 +142,7 @@ html {
 }
 .hero-content {
   position: relative;
-  font-family: "Monserrat", sans-serif;
+  /* font-family: "Monserrat", sans-serif; */
   color: white;
   text-align: center;
   margin: 0.625rem;
@@ -260,5 +260,14 @@ p {
   width: 100vw;
   height: 100vh;
   display: flex;
+}
+.home-link {
+  color: #0299d0;
+  text-decoration: none;
+  margin-left: 5px;
+  font-size: 13px;
+}
+.home-link:hover {
+  color: white;
 }
 /* end of style for signIn page and sign up */
