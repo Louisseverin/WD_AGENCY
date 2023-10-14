@@ -176,3 +176,89 @@ html {
   border: 1px solid #b26781;
 }
 /* end  of body section  */
+
+/* style for signIn page and sign up */
+.signup-box {
+  margin-top: 100px;
+  width: 360px;
+  height: 620px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.452);
+  border-radius: 15px;
+}
+.login-box {
+  width: 360px;
+  height: 340px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.452);
+}
+.title-login {
+  text-align: center;
+  padding-top: 15px;
+  color: rgb(255, 255, 255);
+}
+.header-desc {
+  text-align: center;
+  color: white;
+}
+.form-login {
+  width: 300px;
+  margin-left: 20px;
+}
+.form-login label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+  color: black;
+}
+.form-login input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+input[type="button"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #1b1d1c;
+  color: white;
+  font-size: 18px;
+}
+input[type="button"]:hover {
+  background-color: #000000;
+}
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.para-2 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: -200px;
+}
+.para-22 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: -70px;
+}
+.para-2 a {
+  color: #49c1a2;
+}
+.signin-size {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+/* end of style for signIn page and sign up */
