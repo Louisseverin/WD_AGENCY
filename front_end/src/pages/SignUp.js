@@ -31,7 +31,7 @@ const Signup = () => {
         Already have an account? <a href="/SignIn">Login here </a>
         <a href="/" className="home-link">
           {" "}
-          Back Home>>
+          Back Home
         </a>
       </p>
     </>

@@ -175,6 +175,7 @@ html {
   background-color: #e03672;
   border: 1px solid #b26781;
 }
+
 /* end  of body section  */
 
 /* style for signIn page and sign up */
@@ -271,3 +272,93 @@ p {
   color: white;
 }
 /* end of style for signIn page and sign up */
+
+/* User Dasboard css */
+
+.user-dashboard {
+  display: flex;
+  background-color: #f0f0f0;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 240px;
+  background-color: rgba(73, 70, 70, 0.381);
+  color: #eeeaea;
+  padding: 20px;
+}
+
+.user_nav_logo {
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  height: 50px;
+  left: 0;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 26px; /* Example font size */
+  line-height: 1.5;
+}
+
+.nav-list li.active {
+  font-weight: bold;
+  color: #a0c2e5;
+}
+.nav-list li a:focus,
+.nav-list li a:hover,
+.nav-list li a:active {
+  font-weight: bold; /* Change font weight to bold on hover or when active */
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 34px;
+  color: #ccc;
+}
+
+.logout-button {
+  background-color: #5a4646;
+  color: #fff;
+  border: #5a4646;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.main-content {
+  padding: 20px;
+  color: #1b1d1c;
+}
+
+.dashboard-section {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.559
+  ); /* Transparent white background */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Rounded corners */
+}
+/* End of User Dashboard css */

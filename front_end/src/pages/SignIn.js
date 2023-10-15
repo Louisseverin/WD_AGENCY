@@ -11,7 +11,9 @@ const SignIn = () => {
             <input type="email" placeholder="E-mail" />
             <label>Password</label>
             <input type="password" placeholder="Password" />
-            <input type="button" value="Login" />
+            <a href="/Darshboard">
+              <input type="button" value="Login" />
+            </a>
           </form>
         </div>
       </div>
@@ -19,7 +21,7 @@ const SignIn = () => {
         Not have an account? <a href="/Signup">Sign Up Here</a>{" "}
         <a href="/" className="home-link">
           {" "}
-          Back Home>>
+          Back Home
         </a>
       </p>
     </>
