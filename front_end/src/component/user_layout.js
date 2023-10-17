@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const UserLayout = ({ children }) => {
   return (
-    <div className="user-dashboard all-info">
+    <div className="user-dashboard all-inf">
       <div className="sidebar">
         <div className="user_nav_logo">
           <img

@@ -11,7 +11,7 @@ const SignIn = () => {
             <input type="email" placeholder="E-mail" />
             <label>Password</label>
             <input type="password" placeholder="Password" />
-            <a href="/Darshboard">
+            <a href="/Dashboard">
               <input type="button" value="Login" />
             </a>
           </form>
